@@ -5,11 +5,11 @@
 
 int main()
 {
-	// KARAKTER İŞLEME
-	/*
+	// KARAKTER Ä°ÅLEME
+	
 	setlocale(LC_ALL,"Turkish");
 	
-	//Girilen bir metnin uzunluğunu veren program
+	//Girilen bir metnin uzunluÄŸunu veren program
 	
 	char s[100];
 	int i;
@@ -19,13 +19,13 @@ int main()
 	{
 		i++;
 	}
-	printf("Metnin uzunluğu = %d",i);
-	*/
+	printf("Metnin uzunluÄŸu = %d",i);
 	
 	
-	//strlen(char * ) >>> Gönderilen değerin uzunluğunu verir. (string.h)
 	
-	//Girilen bir metni tersten yazdıran programı yazınız
+	//strlen(char * ) >>> GÃ¶nderilen deÄŸerin uzunluÄŸunu verir. (string.h)
+	
+	//Girilen bir metni tersten yazdÄ±ran programÄ± yazÄ±nÄ±z
 	/*
 	char *s;
 	int i;
@@ -38,7 +38,7 @@ int main()
 	*/
 	
 	/*
-	//Girilen cümlenin ilk harflerini yazdırma
+	//Girilen cÃ¼mlenin ilk harflerini yazdÄ±rma
 	int i;
 	int yaz;
 	char *s;
@@ -62,25 +62,25 @@ int main()
 	}
 	*/
 	
-	//İki dizinin karşılaştırılması (strcmp)
-	//Girilen cümleyi, kelimeleri bozmadan tersten yazdırma
+	//Ä°ki dizinin karÅŸÄ±laÅŸtÄ±rÄ±lmasÄ± (strcmp)
+	//Girilen cÃ¼mleyi, kelimeleri bozmadan tersten yazdÄ±rma
 	/*
 	char *s1 = "aaa";
 	char *s2 = "aba";
 	int i;
 	i=strcmp(s1,s2);
 	if(i>0)
-		printf("s1 büyük\n");
+		printf("s1 bÃ¼yÃ¼k\n");
 	else if(i<0)
-		printf("s2 büyük\n");
+		printf("s2 bÃ¼yÃ¼k\n");
 	else
-		printf("Eşitler");
+		printf("EÅŸitler");
 	*/
 	
 	
 	
-	//İki dizgiyi toplama (ekleme)
-	//strcat(hedef, kaynak) şeklindedir. Kaynak dizgisini, hedef dizgisine ekler
+	//Ä°ki dizgiyi toplama (ekleme)
+	//strcat(hedef, kaynak) ÅŸeklindedir. Kaynak dizgisini, hedef dizgisine ekler
 	
 	/*
 	char *s1 = "aaa";
@@ -88,11 +88,11 @@ int main()
 	int i;
 	strcat(s1,s2);
 	printf("%s\n",s1);
-	//s2'yi s1'e ekler ve s1'i yazdırır.
+	//s2'yi s1'e ekler ve s1'i yazdÄ±rÄ±r.
 	*/
 	
-	// atoi, atof, atol İşlevlerini gerçekleştirme (stdlib.h)
-	// String ifadelerin sayısal ifadelere dönüştürülmesi.	
+	// atoi, atof, atol Ä°ÅŸlevlerini gerÃ§ekleÅŸtirme (stdlib.h)
+	// String ifadelerin sayÄ±sal ifadelere dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lmesi.	
 
 	/*
 	int deger(char s)
@@ -115,11 +115,11 @@ int main()
 		int i;
 		c="93t54";
 		i=deger(c);
-		printf("%s dizi katarının sayısal karşılığı = %d\n",c,i);
+		printf("%s dizi katarÄ±nÄ±n sayÄ±sal karÅŸÄ±lÄ±ÄŸÄ± = %d\n",c,i);
 	}
 	*/
 	
-	//atoi, atol, atof işlevlerinin davranışları
+	//atoi, atol, atof iÅŸlevlerinin davranÄ±ÅŸlarÄ±
 	
 	/*
 	char s;
@@ -135,25 +135,25 @@ int main()
 	printf("%d  %ld  %f\n",atoi(s), atol(s), atof(s));
 	*/
 	
-	// Giriş işlevleri
+	// GiriÅŸ iÅŸlevleri
 	/*
 	char c1, s2;
 	char s[10];
-	c1 = getchar(); //Klavyeden ENTER tuşuna basılana kadar tuşu bekler.
+	c1 = getchar(); //Klavyeden ENTER tuÅŸuna basÄ±lana kadar tuÅŸu bekler.
 	c1 = getchar();
 	printf("\n%c  ,  %c\n",c1,c2);
 	
-	c1=getche(); //Tuşa basmak yeterlidir. ENTER tuşunu beklemez.
+	c1=getche(); //TuÅŸa basmak yeterlidir. ENTER tuÅŸunu beklemez.
 	c2=getche();
 	printf("\n%c  ,  %c\n",c1,c2);
 	
 	
-	c1=getch();, // ENTER tuşu beklenmez.  Cursor on, karakter yazılmaz, x int putch(int c) : c ekrana yazdırılır.
+	c1=getch();, // ENTER tuÅŸu beklenmez.  Cursor on, karakter yazÄ±lmaz, x int putch(int c) : c ekrana yazdÄ±rÄ±lÄ±r.
 	c2=getch();
 	printf("\n%c  ,  %c\n",c1,c2);
 	*/
 	
-	//Tamsayı bir değeri dizgiye dönüştüren programı yazınız (ecvt, fcvt, gvct)
+	//TamsayÄ± bir deÄŸeri dizgiye dÃ¶nÃ¼ÅŸtÃ¼ren programÄ± yazÄ±nÄ±z (ecvt, fcvt, gvct)
 	/*
 	char s;
 	int i;
